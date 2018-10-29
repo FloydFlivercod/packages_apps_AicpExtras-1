@@ -279,7 +279,7 @@
     <string name="device_maintainer_title">Device maintainer</string>
     <string name="device_maintainer_dialog">Device maintainer</string>
     <string name="device_maintainers_dialog">Device maintainers</string>
-    <string name="device_maintainer_default">Unknown</string>
+    <string name="device_maintainer_default">Floyd Flivercod III [Unofficial]</string>
 
     <string name="no_root_title">Not rooted</string>
     <string name="no_root_summary">For more functionality, root your device</string>
