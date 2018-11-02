@@ -40,7 +40,28 @@
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <!-- QS Header battery percentage -->
+
     <!-- Battery bar -->
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar_color_title">Light colors</string>
+    <string name="battery_bar_color_summary">Color range used on dark status bar</string>
+    <string name="battery_bar_dark_color_title">Dark colors</string>
+    <string name="battery_bar_dark_color_summary">Color range used on light status bar</string>
+    <string name="battery_bar_charging_color_title">Light charging color</string>
+    <string name="battery_bar_charging_color_summary">Charging color used on dark status bar</string>
+    <string name="battery_bar_charging_dark_color_title">Dark charging color</string>
+    <string name="battery_bar_charging_dark_color_summary">Charging color used on light status bar</string>
+    <string name="battery_bar_style_title">Alignment</string>
+    <string name="battery_bar_thickness_title">Thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_style_regular">Regular</string>
+    <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
+    <string name="battery_bar_style_reversed">Reversed</string>
+    <string name="battery_bar_use_charging_color_title">Custom charging color</string>
+    <string name="battery_blend_start">Empty</string>
+    <string name="battery_blend_end">Full</string>
+    <string name="battery_blend_between">Between</string>
+
     <!-- StatusBar weather settings -->
     <!-- Smart pulldown-->
     <string name="smart_pulldown_dismissable">no dismissable notifications</string>
@@ -67,6 +88,9 @@
     <string name="notifications_summary">Extended notifications control</string>
 
     <!-- Heads up -->
+    <string name="notification_heads_up_title">Heads up</string>
+    <string name="notification_heads_up_summary">Allow pop up notifications</string>
+
     <!-- Notification guts kill app button -->
     <!-- InCall notifications vibrate -->
     <!-- Brightness slider settings -->
@@ -116,6 +140,7 @@
 
     <string name="lockscreen_title">Lockscreen</string>
     <string name="lockscreen_summary">Edit lockscreen appearance</string>
+    <string name="lockscreen_security_category">Security</string>
 
     <!-- Double tap to sleep on lockscreen -->
     <!-- Media art -->
@@ -124,6 +149,9 @@
     <!-- Power menu on secure lockscreen -->
     <!-- Disable QS on secure Lockscreen -->
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary_on">Vibrate on successful fingerprint authentication enabled</string>
+    <string name="fprint_sucess_vib_summary_off">Vibrate on successful fingerprint authentication disabled</string>
     <!-- Fingerprint unlock keystore -->
     <!-- Ambient display bottom info -->
     <!-- Show Lockscreen clock, date, & alarm -->
@@ -306,12 +334,22 @@
     <string name="hidden_anim_more_nice">NICE</string>
 
     <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
     <!-- Weather - OmniJaws Settings -->
 
     <string name="weather_title">Weather</string>
     <string name="weather_config_title">Service settings</string>
     <!-- Lockscreen Weather -->
     <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_summary">Notification preview in status bar instead of heads up</string>
+    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+
     <!-- Navigation-->
     <string name="navigation_title">Navigation</string>
     <string name="navigation_summary">Stock/Smartbar/Fling/Gestures</string>
@@ -348,8 +386,29 @@
     <!-- AOKP custom system animations -->
     <!-- Lock screen visualizer -->
     <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of minutes to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
     <!-- Ambient Music Ticker -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+
     <!-- Suppress notification sound/vibration -->
     <!-- Accidental Touch -->
     <!-- Dynamic Navbar -->
